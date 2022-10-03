@@ -1,0 +1,36 @@
+.one{
+width: 667px;
+height: 93px;
+left: 121px;
+top: 2000px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+}
+.two{
+width: 150px;
+height: 39px;
+left: 122px;
+top: 2182px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+}
+p{
+width: 223px;
+height: 39px;
+left: 122px;
+top: 2222px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+}
