@@ -1,0 +1,35 @@
+.logo{
+width: 112px;
+height: 66px;
+left: 121px;
+top: 21px;
+
+background: url(logo_mobile_black.png);
+}
+.globe{
+width: 22px;
+height: 21px;
+left: 111px;
+top: 184px;
+
+background: url(globe.png);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.course{
+width: 130px;
+height: 32px;
+left: 154px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* or 23px */
+color: #000000;
+}
+.calendar{
+    
+}
