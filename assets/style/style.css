@@ -1,243 +1,84 @@
-h2{
-    
-
-    width: 365px;
-    height: 93px;
-    left: 124px;
-    top: 91px;
-    
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 101.38%;
-    color: #000000;
-    }
-    .img{
-        position: absolute;
-        width: 314px;
-        height: 315px;
-        left: 976px;
-        top: 226px;
-        
-        background: url(_1.png);
-    }
-    .text{
-
-    width: 662px;
-    height: 374px;
-    left: 124px;
-    top: 202px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
-    /* or 36px */
-    
-    
-    color: #000000;
-    }
-    .imgg{
-        position: absolute;
-    width: 232px;
-    height: 203px;
-    left: 124px;
-    top: 670px;
-    
-    background: url(photo.png);
-    }
-    .a{
-        position: absolute;
-        width: 150px;
-        height: 39px;
-        left: 976px;
-        top: 740px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 130%;
-        /* or 32px */
-        
-        
-        color: #000000;
-    }
-    .b{
-        position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 733px;
-    top: 740px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
-    /* or 32px */
-    
-    
-    color: #000000;
-    }
-    .c{
-        position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 976px;
-    top: 780px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    /* or 23px */
-    
-    
-    color: #000000;
-    }
-    .d{
-        position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 733px;
-    top: 780px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    /* or 23px */
-    
-    
-    color: #000000;
-    }
-    .f{
-        position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 488px;
-    top: 780px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 130%;
-    /* or 23px */
-    
-    
-    color: #000000;
-    }
-    .k{
-        position: absolute;
-    width: 150px;
-    height: 39px;
-    left: 488px;
-    top: 740px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 130%;
-    /* or 32px */
-    
-    
-    color: #000000;
-    }
-    .part6{
-        position: absolute;
-width: 1440px;
-height: 780px;
-top: 4625px;
-padding: 0px ;
-background: #EFEFEF;
-    }  
-      .babypart6{
-
- width: 791px;
- height: 451px;
- margin:34px 523px 111px 126px;
- background: #FFFFFF;
- box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
- border-radius: 30px;
- }
-    .kypc{
-
-width: 987px;
-height: 93px;
-margin: 91px 331px px 122px;
-
-font-family: 'Roboto Slab';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.blue-side{
+    position: relative; 
+    width: 100%;
+    height: 780px;
+    background: #9DC9C8;
+    left: -1px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.price{
+    position: absolute;
+width: 481px;
+height: 181px;
+left: 121px;
+top: 329px;
+font-family: 'Roboto';
 font-style: normal;
-font-weight: 700;
-font-size: 55px;
+font-weight: 400;
+font-size: 80px;
 line-height: 101.38%;
-/* or 56px */
-
-
-color: #000000;
-    }   
-
-    .text6{
-        width: 700px;
-        height: 203px;
-        left: 170px;
-        top: 4883px;
-        
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 150%;
-        /* or 30px */
-        
-        
-        color: #000000;
-    }
-
- .img6{
-
-width: 190px;
-height: 169px;
-
-
-
-background: url(1.png);
- }
- .img7{
-
-width: 32px;
-height: 31px;
-margin: -500px 150px 150px 50px;
-
-
- }
- .ekatirina{
-
-width: 353px;
-height: 59px;
-margin: 10px 30px 50px 200px;
-
-
-font-family: 'Roboto Slab';
+}
+.price-tag{
+position: absolute;
+width: 170px;
+height: 32px;
+left: 121px;
+top: 350px;
+font-family: 'Roboto';
 font-style: normal;
-font-weight: 700;
-font-size: 30px;
+font-weight: 400;
+font-size: 25px;
 line-height: 101.38%;
-/* or 30px */
+opacity: 0.54;
+}
+.lovely{
+    position: absolute;
+width: 294px;
+height: 32px;
+left: 121px;
+top: 484px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.null{
+    position: absolute;
+width: 294px;
+height: 70px;
+left: 121px;
+top: 525px;
 
-
-color: #000000;
- }
-main{
-    width: 1000px;
-    height: 1000px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
 }
 
-   
+
+.invite{
+    position: absolute;
+width: 322px;
+height: 32px;
+left: 485px;
+top: 484px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.webinar{
+position: absolute;
+width: 294px;
+height: 70px;
+left: 485px;
+top: 525px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+}
