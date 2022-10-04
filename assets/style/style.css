@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.first-heading{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 845.64px;
+
+}
 .logo{
+    position: absolute;
 width: 112px;
 height: 66px;
 left: 121px;
@@ -7,19 +16,19 @@ top: 21px;
 background: url(logo_mobile_black.png);
 }
 .globe{
+    position: absolute;
 width: 22px;
 height: 21px;
-left: 111px;
+left: 121px;
 top: 184px;
 
 background: url(globe.png);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
 }
 .course{
+    position: absolute;
 width: 130px;
 height: 32px;
-left: 154px;
+left: 151px;
 top: 187px;
 
 font-family: 'Roboto';
@@ -28,9 +37,174 @@ font-weight: 400;
 font-size: 20px;
 line-height: 115%;
 /* or 23px */
+
+
 color: #000000;
 }
-    
+.clock{
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 306px;
+top: 183px;
+
+background: url(img_135744.png);
+}
+.time{
+    position: absolute;
+width: 130px;
+height: 32px;
+left: 338px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* or 23px */
+
+
+color: #000000;
+
+}
+.calendar{
+    position: absolute;
+width: 20px;
+height: 22px;
+left: 467px;
+top: 183px;
+
+background: url(calendar_2.png);
+
+}
+.date{
+    position: absolute;
+width: 130px;
+height: 32px;
+left: 500px;
+top: 187px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 115%;
+/* or 23px */
+
+
+color: #000000;
+}
+.head{
+    position: absolute;
+width: 628px;
+height: 190px;
+left: 122px;
+top: 248px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 101.38%;
+/* or 81px */
+
+
+color: #000000;
+
+}
+.continue{
+    position: absolute;
+width: 414px;
+height: 62px;
+left: 122px;
+top: 427px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+
+color: #000000;
+
+}
+.man{
+    position: absolute;
+width: 304px;
+height: 356px;
+left: 890px;
+top: 223px;
+
+background: url(noroot.png);
+}
+.end{
+    position: absolute;
+width: 483.63px;
+height: 200.02px;
+left: 409.39px;
+top: 666.62px;
+
+}
+
+
+color: #000000;
+}
+.head{
+    position: absolute;
+width: 628px;
+height: 190px;
+left: 122px;
+top: 248px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 101.38%;
+/* or 81px */
+
+
+color: #000000;
+
+}
+.continue{
+    position: absolute;
+width: 414px;
+height: 62px;
+left: 122px;
+top: 427px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+
+
+color: #000000;
+
+}
+.man{
+    position: absolute;
+width: 304px;
+height: 356px;
+left: 890px;
+top: 223px;
+
+background: url(noroot.png);
+}
+.end{
+    position: absolute;
+width: 483.63px;
+height: 200.02px;
+left: 409.39px;
+top: 666.62px;
+
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 .blue-side{
     position: relative; 
