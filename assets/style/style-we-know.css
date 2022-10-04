@@ -1,0 +1,55 @@
+.lale1 {
+
+    width: 667px;
+    height: 93px;
+    margin-left: 121px;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+
+}
+
+.lale2 {
+
+    width: 662px;
+    height: 374px;
+    margin-left: 138px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000000;
+
+}
+@media only screen and (max-width:1279px) and (min-width:992px) {
+    .lale1 {
+        width: 386.3px;
+        height: 53.86px;
+        margin-left: 70.08px;
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 101.38%;
+        color: #000000;
+    }
+
+    .lale2 {
+        width: 383.41px;
+        height: 216.61px;
+        margin-left: 79.92px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 150%;
+        color: #000000;
+    }
+
+}
