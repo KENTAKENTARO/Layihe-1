@@ -1,3 +1,8 @@
+.part2{
+    background-color: white;
+    position: relative;
+    margin-bottom: 50px;
+}
 h1{
     
     position: relative;
@@ -18,7 +23,7 @@ h1{
         width: 314px;
         height: 315px;
         left: 976px;
-        top: 226px;
+        top: -270px;
         
         background: url(_1.png);
     }
@@ -28,8 +33,7 @@ h1{
     width: 662px;
     height: 374px;
     left: 124px;
-    top: 202px;
-    
+    top: 108px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
