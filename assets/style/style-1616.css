@@ -1,8 +1,7 @@
 .ekatrina{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 780px;
-    top: 4625px;
     background: #EFEFEF;
 }
 .EP{
