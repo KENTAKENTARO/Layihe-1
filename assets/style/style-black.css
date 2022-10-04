@@ -1,0 +1,96 @@
+.black{
+    background-color: black;
+    position: absolute;
+width: 100%;
+height: 390px;
+left: -1px;
+top: 6185px;
+}
+.logo-contact{
+    position: absolute;
+width: 115px;
+height: 68px;
+left: 121px;
+top: 50px;
+}
+.logo-ins{
+    position: absolute;
+width: 33px;
+height: 33px;
+left: 121px;
+top: 148px;
+}
+.logo-fb{
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 172px;
+top: 148px;
+}
+.logo-vk{
+    position: absolute;
+width: 35px;
+height: 35px;
+left: 225px;
+top: 148px;
+}
+.logo-vb{
+    position: absolute;
+width: 34px;
+height: 34px;
+left: 285px;
+top: 148px;
+}
+.phone{
+    position: absolute;
+width: 27px;
+height: 27px;
+left: 975px;
+top: 54px;
+}
+.mail{
+    position: absolute;
+width: 27px;
+height: 18px;
+left: 975px;
+top: 106px;
+}
+.contact-number{
+    color: white;
+    position: absolute;
+width: 230px;
+height: 40px;
+left: 1024px;
+top: 35px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.contact-mail{
+    color: white;
+    position: absolute;
+width: 269px;
+height: 40px;
+left: 1024px;
+top: 80px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+.copyright{
+    color: white;
+    position: absolute;
+width: 230px;
+height: 40px;
+left: 121px;
+top: 327px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+}
