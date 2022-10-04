@@ -1,3 +1,4 @@
+
 .one {
     width: 667px;
     height: 93px;
@@ -35,10 +36,14 @@ p {
 
 .blue-side {
     position: absolute;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.blue-side{
+    position: relative; 
+
     width: 100%;
     height: 780px;
     background: #9DC9C8;
-    top: 5405px;
     left: -1px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -56,7 +61,9 @@ p {
     line-height: 101.38%;
 }
 
-.price-tag {
+
+
+.invite{
     position: absolute;
     width: 170px;
     height: 32px;
@@ -355,4 +362,15 @@ h3 {
         color: #000000;
     }
 
+.webinar{
+position: absolute;
+width: 294px;
+height: 70px;
+left: 485px;
+top: 525px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;}
 }
