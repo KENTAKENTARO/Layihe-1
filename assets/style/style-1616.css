@@ -1,0 +1,51 @@
+.ekatrina{
+    position: relative;
+    width: 100%;
+    height: 780px;
+    background: #EFEFEF;
+}
+.EP{
+    position: absolute;
+width: 353px;
+height: 59px;
+left:  367px;
+top: 500px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 101.38%;
+}
+.count-people{
+    position: absolute;
+width: 987px;
+height: 93px;
+left: 121px;
+top: 60px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+}
+.bg{
+    position: absolute;
+    width: 791px;
+    height: 451px;
+    left: 121px;
+    top: 218px;
+}
+.fb-ep{
+    position: absolute;
+width: 32px;
+height: 31px;
+left: 367px;
+top: 570px;
+}
+.face{
+    position: absolute;
+width: 190px;
+height: 169px;
+left: 151px;
+top: 471px;
+}
