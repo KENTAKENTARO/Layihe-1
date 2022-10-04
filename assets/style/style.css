@@ -36,7 +36,7 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 101.38%;
-    opacity: 0.54;
+    
 }
 
 .lovely {
@@ -103,6 +103,19 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
+line-height: 101.38%;
+}
+.price-tag{
+    position: absolute;
+width: 170px;
+height: 32px;
+left: 121px;
+top: 350px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
 line-height: 101.38%;
 }
 
