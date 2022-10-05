@@ -249,4 +249,17 @@ top: 68.05px;
     height: 9px;
     top: 155px;
 }
+.contact-number{
+    position: absolute;
+width: 133.21px;
+height: 23.17px;
+left: 60px;
+top: 125px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 101.38%;
+}
 }
