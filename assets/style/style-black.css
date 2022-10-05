@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 .black{
     background-color: black;
 position: relative;
@@ -95,9 +96,10 @@ font-size: 18px;
 line-height: 101.38%;
 }
 @media screen and (min-width: 992px) and (max-width:1279px){
+   
     .black{
         position: relative;
-width: 100%px;
+width: 100%;
 height: 225.88px;
 left: 0px;
 background-color: #000000;
@@ -218,5 +220,33 @@ height: 14.91px;
 left: 61.61px;
 top: 68.96px;
 
+}
+.logo-vk{
+    position: absolute;
+width: 16.31px;
+height: 16.31px;
+left: 86.31px;
+top: 68.03px;
+}
+.logo-vb{
+    position: absolute;
+width: 15.84px;
+height: 15.84px;
+left: 114.27px;
+top: 68.05px;
+}
+.phone{
+    position: absolute;
+    left: 37.85px;
+    top: 132px;
+    width: 15px;
+    height: 15px;
+}
+.mail{
+    position:absolute;
+    left: 37.85px;
+    width: 15px;
+    height: 9px;
+    top: 155px;
 }
 }
