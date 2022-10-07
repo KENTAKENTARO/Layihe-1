@@ -1,5 +1,6 @@
 .lale1 {
 
+
     width: 667px;
     height: 93px;
     margin-left: 121px;
@@ -12,6 +13,7 @@
     color: #000000;
 
 }
+
 
 .lale2 {
 
@@ -41,15 +43,21 @@
     }
 
     .lale2 {
+        position: relative;
+
         width: 383.41px;
         height: 216.61px;
-        margin-left: 79.92px;
+        margin-left: 50px;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 150%;
         color: #000000;
+    }
+    .we-know{
+        position: relative;
+        top: -90px;
     }
 
 }
