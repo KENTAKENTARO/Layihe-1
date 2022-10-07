@@ -162,6 +162,11 @@ h3 {
 }
 
 @media screen and (max-width:1279px) and (min-width:992px) {
+    .course-program{
+        width: 834px;
+        height: 900px;
+
+    }
     .lale3 {
 
         width: 524.15px;
