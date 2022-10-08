@@ -4,7 +4,7 @@
   position: relative;
   width: 100%;
   height: 780px;
-  background: #efefef;
+  background: #EFEFEF;
 }
 .EP {
   position: absolute;
@@ -69,6 +69,7 @@ border-radius: 30px;
   top: 253px;
 }
 @media screen and (max-width: 1219px) and (min-width: 992px) {
+  
   .count-people {
     position: absolute;
     width: 571.64px;
@@ -139,7 +140,7 @@ color: #000000;
 
 
     position: relative;
-    width: 100%;
+    width: 834px;
     height: 451.75px;
     background: #efefef;
   }
