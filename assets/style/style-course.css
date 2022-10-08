@@ -52,24 +52,36 @@
             background-color: white;
         }
         .humay{
-            
-width: 386.3px;
-height: 53.86px;
-margin-left: 70.08px;
-
-font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 101.38%;
-
-color: #000000;
+            position: absolute;
+            width: 386.3px;
+            height: 53.86px;
+            left:-60px;
+            bottom: 70px;
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 101.38%;
+            color: #000000;
 
         }
         .humay2{
             display: flex;
+            position: relative;
+            top: 80px;
+        }
+        .humay6{
+            width: 500px;
+            height: 150px;
+            top: -150px;
+
+            position: relative;
+
+
+            
         }
         .humay1{
+        
 width: 200px;
 height: 22.59px;
 margin-left: 70.66px;
@@ -164,9 +176,3 @@ color: #000000;
         }
 
         }
-
-        
-    
-
-        
-    
