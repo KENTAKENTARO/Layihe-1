@@ -1,6 +1,5 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 .blue-side{
     position: relative; 
 
@@ -15,7 +14,8 @@
 width: 908px;
 height: 66px;
 left: 121px;
-top: 209px;
+top: 179px;
+
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
@@ -130,48 +130,46 @@ font-weight: 400;
 font-size: 25px;
 line-height: 101.38%;
 }
-@media screen and (min-width: 992px) and (max-width:1279px){
+@media (max-width:1279px) and (min-width:992px){
     .blue-side{
         position: relative;
-        width: 834px;
-        height: 451.75px;
-        left: 0px;
-      
-        
-        background: #9DC9C8;
+width: 834px;
+height: 451.75px;
+left: 0px;
     }
     .begins{
         position: absolute;
 width: 525.88px;
 height: 38.23px;
 left: 70.66px;
-top: 103.67px;
+top: 103.42px;
 
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
 font-size: 32px;
 line-height: 101.38%;
+/* or 32px */
     }
     .price-tag{
         position: absolute;
-width: 98.46px;
-height: 18.53px;
-left: 70.66px;
-top: 173.17px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 101.38%;
+        width: 98.46px;
+        height: 18.53px;
+        left: 70.66px;
+        top: 173.92px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 101.38%;
     }
     .price{
         position: absolute;
 width: 278.58px;
 height: 104.83px;
 left: 70.66px;
-top: 155.55px;
+top: 153.3px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -184,7 +182,7 @@ line-height: 101.38%;
 width: 170.28px;
 height: 18.53px;
 left: 70.66px;
-top: 280.32px;
+top: 280.07px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -232,13 +230,12 @@ font-size: 10px;
 line-height: 101.38%;
     }
 }
-@media screen and (min-width: 320px) and (max-width:991px){
+@media screen and (max-width:991px) and (min-width:320px){
     .blue-side{
         position: relative;
-width: 376px;
-height: 363.46px;
-left: -23px;
-
+width: 375px;
+height: 363px;
+left: 0px;
 
 background: #9DC9C8;
     }
@@ -273,7 +270,7 @@ line-height: 101.38%;
 width: 224.13px;
 height: 84.34px;
 left: 33.85px;
-top: 135.3px;
+top: 137.3px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -312,7 +309,7 @@ line-height: 101.38%;
 width: 151px;
 height: 14px;
 left: 203px;
-top: 233.53px;
+top: 234px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -331,6 +328,6 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 10px;
-line-height: 101.38%;         
+line-height: 101.38%;
     }
 }

@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 .part2{
     background-color: white;
     position: relative;
-    margin-bottom: 50px;
-    margin-top: 173.36px;
+    width: 1440px;
+    height: 950px;
+    margin-top: 100px;
 }
-h1{
     
-    position: relative;
+.course-info{
+    
+    position: absolute;
     width: 365px;
     height: 93px;
     left: 124px;
@@ -22,21 +24,20 @@ h1{
     color: #000000;
     }
     .img{
-        position:relative;
+        position:absolute;
         width: 314px;
         height: 315px;
         left: 976px;
-        top: -270px;
-        
+        top: 226px;
         background: url(_1.png);
     }
    
     .text{
-        position: relative;
+        position: absolute;
     width: 662px;
     height: 374px;
     left: 124px;
-    top: 108px;
+    top: 200px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -158,186 +159,28 @@ h1{
     
     color: #000000;
     }
-    
-    @media (max-width:1279px) and (min-width:992px){
+
+    @media screen and (max-width:991px) and (min-width:320px) {
         .part2{
+            margin-top: -85px;
             position: relative;
- 
-            width: 834px;
-            height: 100px;
+            background-color: white;
+            width: 375px;
+            height: 672px;
         }
-    h1{
-        position: absolute;
-        width: 211.4px;
-        height: 53.86px;
-        left: 70.08px;
-        top: 56px;
-        
-        font-family: 'Roboto Slab';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 101.38%;
-        /* or 32px */
-        
-        
-        color: #000000;
-    }
-    .text{
-        position: absolute;
-    width: 308.47px;
-    height: 174.27px;
-    left: 36px;
-    top: 107.72px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 150%;
-    /* or 18px */
-    
-    
-    color: #000000;
-        
-    }
-    .imgg{
-        position: absolute;
-width: 134.37px;
-height: 117.57px;
-left: 70.08px;
-top: 947.51px;
-background: url(photo.png);
-    }
-    .img{
-        position: absolute;
-    width: 170.55px;
-    height: 160.29px;
-    left: 101px;
-    top: 338px;
-    }
-    .a{
-        position: absolute;
-    width: 69.9px;
-    height: 18.17px;
-    left: 35px;
-    top: 615px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 130%;
-    /* or 16px */
-    
-    
-    color: #000000;
-    }
-    .b{
-        position: absolute;
-    width: 69.9px;
-    height: 18.17px;
-    left: 154.16px;
-    top: 544px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 130%;
-    /* or 16px */
-    
-    
-    color: #000000;
-    }
-    .c{
-        position: absolute;
-    width: 76px;
-    height: 18px;
-    left: 35px;
-    top: 634px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 130%;
-    /* or 13px */
-    
-    
-    color: #000000;
-    }
-    .d{
-        position: absolute;
-    width: 86.89px;
-    height: 18.5px;
-    left: 154.33px;
-    top: 562.46px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 130%;
-    /* or 13px */
-    
-    
-    color: #000000;
-    }
-    .f{
-        position: absolute;
-    width: 86px;
-    height: 18px;
-    left: 35px;
-    top: 563px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 130%;
-    /* or 13px */
-    
-    
-    color: #000000;
-    }
-    .k{
-        position: absolute;
-    width: 69.9px;
-    height: 18.17px;
-    left: 35px;
-    top: 544px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 130%;
-    /* or 16px */
-    
-    
-    color: #000000;
-    }
-    }
-    @media (max-width:1279px) and (min-width:992px) {
-        .part2{
-            position: relative;
-            top: -420px;
-            width: 843px;
-            height: 110px;
-        }
-        h1{
+        .course-info{
+
             position: absolute;
-    width: 211.4px;
-    height: 53.86px;
-    left: 72px;
-    top: 56px;
-    
-    font-family: 'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 101.38%;
+width: 170.08px;
+height: 43.34px;
+left: 36px;
+top: 10px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 101.38%;
     /* or 32px */
     
     
@@ -346,17 +189,16 @@ background: url(photo.png);
         .text{
             
             position: absolute;
-            width: 383.41px;
-            height: 216.61px;
-            left: 72px;
-            top: 120.29px;
-            
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 150%;
-            /* or 21px */
+width: 308.47px;
+height: 174.27px;
+left: 36px;
+top: 60px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
             
             
             color: #000000;
@@ -373,112 +215,280 @@ background: url(photo.png);
         }
         .img{
             
-    position: absolute;
-    width: 181.86px;
-    height: 182.44px;
-    left: 565.45px;
-    top: 134.19px;
+            position: absolute;
+            width: 170.55px;
+            height: 160.29px;
+            left: 101px;
+            top: 350px;
+            
         }
         .a{
             position: absolute;
-    width: 86.88px;
-    height: 22.59px;
-    left: 563.53px;
-    top: 407px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 130%;
-    /* or 19px */
+
+            width: 69.9px;
+            height: 18.17px;
+            left: 35px;
+            top: 596px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 130%;
+
     
     
     color: #000000;
         }
         .b{
             position: absolute;
-    width: 86.88px;
-    height: 22.59px;
-    left: 422.79px;
-    top: 407px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 130%;
-    /* or 19px */
+
+width: 69.9px;
+height: 18.17px;
+left: 154.16px;
+top: 525px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 130%;
+
     
     
     color: #000000;
         }
         .c{
             position: absolute;
-    width: 86.88px;
-    height: 22.59px;
-    left: 563.53px;
-    top: 430.17px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 130%;
-    /* or 14px */
-    
+
+            width: 76px;
+            height: 18px;
+            left: 35px;
+            top: 616px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 130%;
+
     
     color: #000000;
         }
         .d{
             position: absolute;
-    width: 108px;
-    height: 23px;
-    left: 423.1px;
-    top: 429.95px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 130%;
-    /* or 14px */
+
+width: 86.89px;
+height: 18.5px;
+left: 154.33px;
+top: 545px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+
     
     
     color: #000000;
         }
         .f{
             position: absolute;
-    width: 86.88px;
-    height: 22.59px;
-    left: 280px;
-    top: 430.17px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 130%;
-    /* or 14px */
+
+width: 86px;
+height: 18px;
+left: 35px;
+top: 545px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 130%;
+/* or 13px */
+
     
     
     color: #000000;
         }
         .k{
             position: absolute;
-    width: 86.88px;
-    height: 22.59px;
-    left: 280px;
-    top: 407px;
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 130%;
-    /* or 19px */
+
+width: 69.9px;
+height: 18.17px;
+left: 35px;
+top: 525px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 130%;
+
     
     
     color: #000000;
         }    
+
     }
+    @media (max-width:1279px) and (min-width:992px){
+    .part2{
+        margin-top: -70px;
+        position:relative;
+        background-color: white;
+        width: 835px;
+        height: 500px;
+    }
+        .course-info{
+            position: absolute;
+            width: 211.4px;
+            height: 53.86px;
+            left: 70.08px;
+            top: 10px;
+            
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 101.38%;
+    
+    
+    color: #000000;
+    }
+    .text{
+        position: absolute;
+width: 383.41px;
+height: 216.61px;
+left: 70.08px;
+top: 100.46px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+    /* or 18px */
+    
+    
+    color: #000000;
+        
+    }
+    .imgg{
+        position: absolute;
+width: 134.37px;
+height: 117.57px;
+left: 70.08px;
+top: 360px;
+    }
+    .img{
+        position: absolute;
+width: 181.86px;
+height: 182.44px;
+left: 563.53px;
+top: 124.36px;
+    }
+    .a{
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 563.53px;
+        top: 400px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+    /* or 16px */
+    
+    
+    color: #000000;
+    }
+    .b{
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 422.79px;
+        top: 400px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+    /* or 16px */
+    
+    
+    color: #000000;
+    }
+    .c{
+        position: absolute;
+width: 86.88px;
+height: 22.59px;
+left: 563.53px;
+top: 423px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 130%;
+    
+    
+    color: #000000;
+    }
+    .d{
+        position: absolute;
+        width: 108px;
+        height: 23px;
+        left: 423px;
+        top: 423px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+    /* or 13px */
+    
+    
+    color: #000000;
+    }
+    .f{
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 280.9px;
+        top: 423px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 130%;
+    /* or 13px */
+    
+    
+    color: #000000;
+    }
+    .k{
+        position: absolute;
+        width: 86.88px;
+        height: 22.59px;
+        left: 280.9px;
+        top: 400px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 130%;
+    /* or 16px */
+    
+    
+    color: #000000;
+    }
+    }
+    
+

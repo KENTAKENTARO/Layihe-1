@@ -3,7 +3,7 @@
 .first-heading{
     position: relative;
     background-color: white;
-    width: 100%;
+    width: 1440px;
     height: 845.64px;
 
 }
@@ -206,14 +206,168 @@ top: 666.62px;
 
 }
 @media screen and (max-width:1279px) and (min-width:992px){
+.first-heading{
+    position: relative;
+    background-color: white;
+    width: 834px;
+    height: 715px;
+}
 
 
+.logo{
+    position: absolute;
+width: 64.87px;
+height: 38.23px;
+left: 70.08px;
+top: 22px;
+
+background: url(logo_mobile_black.png);
+}
+.globe{
+    position: absolute;
+width: 12.74px;
+height: 12.16px;
+left: 70.08px;
+top: 116.4px;
+
+background: url(globe);
+}
+.course{
+    position: absolute;
+width: 75.29px;
+height: 18.53px;
+left: 87.45px;
+top: 109.14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 115%;
+/* or 14px */
+
+
+color: #000000;
+
+}
+.clock{
+    position: absolute;
+width: 12.74px;
+height: 12.74px;
+left: 177.23px;
+top: 115.83px;
+
+background: url(img_135744);
+}
+.time{
+    position: absolute;
+width: 75.29px;
+height: 18.53px;
+left: 195.76px;
+top: 109.14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 115%;
+/* or 14px */
+
+
+color: #000000;
+}
+ .calendar{
+    position: absolute;
+width: 11.58px;
+height: 12.74px;
+left: 270.47px;
+top: 115.83px;
+
+background: url(calendar_2);
+ }   
+ .date{
+    position: absolute;
+width: 75.29px;
+height: 18.53px;
+left: 289.58px;
+top: 109.14px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 115%;
+/* or 14px */
+
+
+color: #000000;
+ }
+ .head{
+    position: absolute;
+width: 363.72px;
+height: 110.04px;
+left: 70.66px;
+top: 144.2px;
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 101.38%;
+/* or 47px */
+
+
+color: #000000;
+ }
+.continue{
+    position: absolute;
+width: 264px;
+height: 36px;
+left: 71px;
+top: 257px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+
+
+color: #000000;
+
+}
+.man{
+    position: absolute;
+width: 176.07px;
+height: 206.18px;
+left: 515.46px;
+top: 138.99px;
+
+background: url(noroot.png);
+}
+.end{
+    position: absolute;
+width: 280.11px;
+height: 115.83px;
+left: 235px;
+top: 390px;
+}
+}
+@media screen and (max-width:991px) and (min-width:320px){
+    .first-heading{
+        position: relative;
+        background-color: white;
+        width: 375px;
+        height: 703px;
+    }
     .logo{
-        position: absolute;
-    width: 64.87px;
-    height: 38.23px;
-    left: 70.08px;
-    top: 22px;
+    position: absolute;
+    width: 52.19px;
+    height: 30.75px;
+    left: 35px;
+    top: 36px;
+
     
     background: url(logo_mobile_black.png);
     }
